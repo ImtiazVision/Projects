@@ -107,6 +107,14 @@
       .show_mobile {
         display: none !important;
       }
+      
+    }
+
+    /* EXTRA SMALL DEVICES/ APPLE WATCH */
+    @media only screen and (max-width: 200px) {
+      .padding10 {
+        padding: 0 10px !important;
+      }
     }
   </style>
   <body style="background-color: #ffffff; margin: 0">
@@ -123,13 +131,14 @@
         <td>
           <!-- ========>> START: EMAIL CONTAINER <<========= -->
           <table
-            class="container width_90"
+            class="container width_90 padding10"
             align="center"
             width="600"
             border="0"
             cellspacing="0"
             cellpadding="0"
             role="presentation"
+            style="min-width: 200px;"
           >
             <!-- ========>> START: ROW 1 VIEW IN BROWSER, NYT LINKS & AD <<========= -->
             <tr>
